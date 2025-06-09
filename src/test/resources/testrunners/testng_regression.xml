@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Swag Lab Test Automtion regression suite" verbose="3" thread-count="3" parallel="tests">
+	
+<!-- 	<listeners>
+		<listener class-name="com.qa.swaglab.listeners.ExtentReportListeners" />
+		<listener class-name="com.qa.swaglab.listeners.AllureReportListener" /> 
+	</listeners>
+	-->
+
+  	<test name="Login Page Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.swaglab.tests.LoginPageTest"></class>
+		</classes>
+	</test>
+	
+
+
+<!-- 	<test name="Inventory Page Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.swaglab.tests.InventoryPageTest"></class>
+		</classes>
+	</test>
+	-->
+
+	 
+<!-- 	<test name="ProductInfo Page Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.swaglab.tests.ProductInfoTest"></class>
+		</classes>
+	</test> 
+	-->
+
+</suite>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T22:50:57Z" name="Swag Lab Test Automtion regression suite" finished-at="2023-08-28T22:51:10Z" duration-ms="12501">
+    <groups>
+    </groups>
+    <test started-at="2023-08-28T22:50:57Z" name="Login Page Test" finished-at="2023-08-28T22:51:10Z" duration-ms="12501">
+      <class name="com.qa.swaglab.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:50:57Z" name="setUp" finished-at="2023-08-28T22:51:06Z" duration-ms="8956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:07Z" name="loginNegativeTest" data-provider="negativeLoginData" finished-at="2023-08-28T22:51:08Z" duration-ms="990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:08Z" name="loginNegativeTest" data-provider="negativeLoginData" finished-at="2023-08-28T22:51:08Z" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:08Z" name="loginNegativeTest" data-provider="negativeLoginData" finished-at="2023-08-28T22:51:09Z" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:09Z" name="loginPageTitleTest" finished-at="2023-08-28T22:51:09Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:09Z" name="loginPageUrlTest" finished-at="2023-08-28T22:51:09Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="acceptedUsernameExistTest()[pri:3, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:09Z" name="acceptedUsernameExistTest" finished-at="2023-08-28T22:51:09Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptedUsernameExistTest -->
+        <test-method signature="doLoginTest()[pri:4, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:09Z" name="doLoginTest" finished-at="2023-08-28T22:51:10Z" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.swaglab.tests.LoginPageTest@b2f4ece]" started-at="2023-08-28T22:51:10Z" name="teardown" finished-at="2023-08-28T22:51:10Z" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.swaglab.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- Swag Lab Test Automtion regression suite -->
+</testng-results>

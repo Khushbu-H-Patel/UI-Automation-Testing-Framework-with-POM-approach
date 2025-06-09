@@ -1,0 +1,4 @@
+com\qa\swaglab\tests\InventoryPageTest.class
+com\qa\swaglab\base\BaseTest.class
+com\qa\swaglab\tests\ProductInfoTest.class
+com\qa\swaglab\tests\LoginPageTest.class

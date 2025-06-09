@@ -1,0 +1,13 @@
+com\qa\swaglab\factory\OptionsManager.class
+com\qa\swaglab\factory\DriverFactory.class
+com\qa\swaglab\utils\Constants.class
+com\qa\swaglab\utils\ExcelUtil.class
+com\qa\swaglab\utils\JavaScriptUtil.class
+com\qa\swaglab\pages\LoginPage.class
+com\qa\swaglab\listeners\AllureReportListener.class
+com\qa\swaglab\listeners\ExtentReportListeners.class
+com\qa\swaglab\pages\InventoryPage.class
+com\qa\swaglab\pages\SortFilterInventoryPage.class
+com\qa\swaglab\utils\ErrorClass.class
+com\qa\swaglab\utils\ElementUtil.class
+com\qa\swaglab\pages\ProductInfoPage.class

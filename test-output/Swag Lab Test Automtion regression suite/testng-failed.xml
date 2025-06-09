@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Swag Lab Test Automtion regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="Login Page Test(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.swaglab.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginNegativeTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.swaglab.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [Swag Lab Test Automtion regression suite] -->
